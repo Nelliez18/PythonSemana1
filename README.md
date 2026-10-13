@@ -41,7 +41,7 @@ Calculadora de troco: Recebe valor da compra e valor
 pago, calcula o troco
 ```python
 def calcular_troco():
-    """Recebe o valor da compra e o valor pago, calculando o troco."""
+    # Recebe o valor da compra e o valor pago, calculando o troco.
     valor_compra = float(input("Digite o valor da compra (R$): "))
     valor_pago = float(input("Digite o valor pago pelo cliente (R$): "))
     
@@ -59,7 +59,7 @@ Conversor de tempo: Recebe segundos e imprime em
 horas, minutos e segundos
 ```python
 def converter_tempo():
-    """Recebe um valor em segundos e converte para horas, minutos e segundos."""
+    # Recebe um valor em segundos e converte para horas, minutos e segundos.
     segundos_totais = int(input("Digite a quantidade de segundos: "))
     
     horas = segundos_totais // 3600
@@ -75,7 +75,7 @@ Par ou ímpar: Recebe um número inteiro e informa se é
 par ou ímpar (%)
 ```python
 def verificar_par_ou_impar():
-    """Recebe um número inteiro e verifica se ele é par ou ímpar utilizando %."""
+    # Recebe um número inteiro e verifica se ele é par ou ímpar utilizando %.
     numero = int(input("Digite um número inteiro: "))
     
     if numero % 2 == 0:
@@ -90,7 +90,7 @@ Média de notas: Recebe 3 notas via input(), calcula e
 imprime a média com 2 casas
 ```python
 def calcular_media_notas():
-    """Recebe 3 notas pelo input() e imprime a média formatada com 2 casas decimais."""
+    # Recebe 3 notas pelo input() e imprime a média formatada com 2 casas decimais.
     nota1 = float(input("Digite a primeira nota: "))
     nota2 = float(input("Digite a segunda nota: "))
     nota3 = float(input("Digite a terceira nota: "))
@@ -105,7 +105,7 @@ Calculadora de desconto: Recebe preço e percentual de
 desconto, imprime o preço final
 ```python
 def calcular_desconto_produto():
-    """Recebe o preço e o percentual de desconto, exibindo o preço final."""
+    # Recebe o preço e o percentual de desconto, exibindo o preço final.
     preco_original = float(input("Digite o preço do produto (R$): "))
     percentual_desconto = float(input("Digite a porcentagem de desconto (%): "))
     
@@ -121,7 +121,7 @@ Inversor de nome: Recebe um nome e imprime invertido
 usando slicing [::-1]
 ```python
 def inverter_nome_usuario():
-    """Recebe um nome e o exibe invertido utilizando a técnica de slicing [::-1]."""
+    # Recebe um nome e o exibe invertido utilizando a técnica de slicing [::-1].
     nome = input("Digite um nome: ").strip()
     nome_invertido = nome[::-1]
     
@@ -135,7 +135,7 @@ Mini-desafios Bônus
 Recebe segundos e calcula quantos dias, horas, minutos e segundos representam
 ```python
 def converter_segundos_completos():
-    """Recebe segundos e calcula a quantidade equivalente em dias, horas, minutos e segundos."""
+    # Recebe segundos e calcula a quantidade equivalente em dias, horas, minutos e segundos.
     segundos_totais = int(input("Digite a quantidade total de segundos: "))
     
     # Cálculos matemáticos usando divisões inteiras e restos
@@ -159,7 +159,7 @@ Recebe o raio de um círculo e calcula área e circunferência (math.pi)
 import math
 
 def calcular_propriedades_circulo():
-    """Recebe o raio de um círculo e calcula a sua área e a sua circunferência."""
+    # Recebe o raio de um círculo e calcula a sua área e a sua circunferência.
     raio = float(input("Digite o raio do círculo: "))
     
     # Fórmulas geométricas usando a constante math.pi
@@ -177,7 +177,7 @@ if __name__ == "__main__":
 Recebe uma frase e imprime: no de caracteres, no de palavras e a frase em maiúsculas
 ```python
 def analisar_frase_usuario():
-    """Recebe uma frase e extrai o número de caracteres, palavras e a formatação em maiúsculas."""
+    # Recebe uma frase e extrai o número de caracteres, palavras e a formatação em maiúsculas.
     frase = input("Digite uma frase: ").strip()
     
     # Contagens e transformações de string
